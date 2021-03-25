@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgba(156, 156, 156, 0.548);
+}
+
+
+article {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    border: 1px dotted red;
+
+}
+
+header {
+    border: 1px dotted red;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+}
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: left;
+}
+
+p1 {
+   flex-direction: column;
+   width: 50%;
+   font-size: 1.8em;
+}
+
+p2 {
+    font-size: 1.2em;
+
+}
+.artParagraph {
+    margin-left: 5px;
+
+}
+
+.featuredImage {
+    float: left;
+    width: 48%;
+}
+
+.imgBx.active {
+    
+    top: 0;
+    left: 0;
+    width: 200%;
+    height: 200%;
+    z-index: 1000;
+}
+.mission {
+    margin-top: 75px;
+}
+
+.title {
+    font-size: 1.5cm;
+    flex: 100px;
+    color: rgb(10, 10, 10);
+}
+.navbar {
+    flex: 100px;
+    padding: 20px;
+}   
+
+.navbar a {
+    clear: right
+    text-decoration: none;
+    margin-top: 0 10px;
+    line-height: 70px;
+}
+
+label {
+    margin-top: 0 40px 0 0;
+    font-size: 26px;
+    line-height: 70px;
+    text-align: right;
+    display: none;
+    width: 26px;
+    float: right;
+    
+}
+
+#toggle {
+    display: none;
+}
+
+
+
+  /* @media only screen and (max-width:1127px) {
+
+    .navbar {
+        margin-left: 45%;
+    } */
+  
+
+    @media only screen and (max-width:620px) {
+        article {
+            flex-direction: row; 
+        }
+    
+        label {
+        display: block;
+        cursor: pointer;
+    }
+    p1 {
+        float: none;
+        font-size: 15px;
+    }
+    /* .featuredImage {
+        float: none;
+    } */
+
+    .imgBx.active {
+        margin-left: auto;
+        margin-right: auto;
+        width: 225%;
+        height: 225%;
+        align-items: center;
+    }
+    .navbar {
+        text-align: left;
+        width: 100%;
+        display: none;
+    }
+    .navbar a {
+        display: block;
+        border: 1px solid red;
+        margin: 0;
+    }
+    #toggle:checked + .navbar {
+        display: block;
+    }
+   
+  }
+

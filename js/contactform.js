@@ -11,8 +11,9 @@ $(document).ready(function() {
       console.log('<div>Email is valid</div>')
       } else { 
           event.preventDefault ()
-          console.log('<div>Email is not valid</div>')
-      }
+          var validations = $(".validation")
+          validations[0].innerHTML = ('<div>Email is not valid</div>')
+         }
 
      
    })

@@ -26,7 +26,8 @@ header {
     flex-direction: column;
     justify-content: space-between;
     padding: 20px;
-    background-color: rgba(156, 156, 156, 0.548);
+    
+    
 }
 footer {
     position: fixed;
@@ -34,12 +35,12 @@ footer {
     bottom: 0;
     width: 100%;
     background-color: rgba(156, 156, 156, 0.548);
-    color: white;
     text-align: left;
+    color: white;
 }
 
-p1 {
-   flex-direction: column;
+p {
+   display: inline-block;
    width: 50%;
    font-size: 1.8em;
 }
@@ -81,7 +82,7 @@ p2 {
 }   
 
 .navbar a {
-    clear: right
+    clear: right;
     text-decoration: none;
     margin-top: 0 10px;
     line-height: 70px;
@@ -112,29 +113,28 @@ label {
   
 
     @media only screen and (max-width:620px) {
-        article {
+    article {
             flex-direction: row; 
-        }
+    }
     
-        label {
+    label {
         display: block;
         cursor: pointer;
     }
-    p1 {
-        float: none;
+   
+    p {
+        width: 100%;
         font-size: 15px;
     }
-    /* .featuredImage {
-        float: none;
-    } */
-
+   .featuredImage{
+       width: 100%;
+   }
     .imgBx.active {
         margin-left: auto;
-        margin-right: auto;
-        width: 225%;
-        height: 225%;
+        margin-right: auto;       
         align-items: center;
     }
+ 
     .navbar {
         text-align: left;
         width: 100%;

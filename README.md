@@ -1,6 +1,6 @@
 # LifeInMiniature3
 
-A website to allow artists who paint miniature figures to display their work. Life In Miniature will also tell a bio about the artists. What made them become interested in painting miniatures and what they get personally from painting miniatures. My goal is to celebrate artists and educate site visitors about an artform that they may not be as familiar with. Eventually, I would like to add links to the paints used by the artists and the miniatures on display.
+A website to allow artists who paint miniature figures to display their work. Life In Miniature will also explore what made the artists interested in painting miniatures and what they get personally from painting miniatures. My goal is to celebrate artists and educate site visitors about an artform that they may not be as familiar with. Eventually, I would like to add links to the paints used by the artists and the miniatures on display.
 
 
 **CSS FEATURES**

@@ -121,11 +121,27 @@ label {
     display: block;
     }
 
+    
 
     @media only screen and (max-width:1024px) and (min-width:620px){
+        article {
+            flex-direction: column; 
+        } 
+        
+        p {
+            flex-direction: column;
+            width: 50%;
+            font-size: 1.8em;
+              
+            }
+        .featuredImage{
+            width: 48%;       
+        }
+        
         .navbar {
             font-size: 30px;
         }
+        
         .mission {
             font-size: 30px;
         }
@@ -133,9 +149,7 @@ label {
 
 
     @media only screen and (min-width:1024px) {
-    article {
-    flex-direction: column; 
-    } 
+    
     
     p {
     flex-direction: column;
@@ -143,9 +157,9 @@ label {
     font-size: 1.8em;
       
     }
-   .featuredImage{
+    .featuredImage{
     width: 48%;       
-    }
+    } 
     .imgBx.active {
     top: 0;
     left: 0;

@@ -10,7 +10,7 @@ A website to allow artists who paint miniature figures to display their work. Li
 
 **Java Features**
 1) Contact form that alerts the user when their email is an invalid form.
-2) The submit button is connected to my personal email (via Formspree) so that when a user enters their information and a message.
+2) The submit button is connected to my personal email (via Formspree) so that when a user enters their information and a message it is sent to me.
     - I have not setup my email address on Formspree so currently it goes to a formspree broken link page.
 
 

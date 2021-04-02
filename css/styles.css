@@ -137,6 +137,11 @@ label {
         .featuredImage{
             width: 48%;       
         }
+
+        .imgBx.active {
+            width: 175%;
+            height: 175%;
+        }
         
         .navbar {
             font-size: 30px;
